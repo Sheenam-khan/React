@@ -6,7 +6,7 @@ class A extends Component {
       this.currentRef=React.createRef();
     }
     accessChild=()=>{
-        console.log(this.refs.child)
+       // console.log(this.refs.child)
          this.currentRef.current.increment()
      // this.refs.child.increment()
     }
