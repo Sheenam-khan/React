@@ -8,7 +8,7 @@ class A extends Component {
     accessChild=()=>{
         console.log(this.refs.child)
          this.currentRef.current.increment()
-      //  this.refs.child.increment()
+     // this.refs.child.increment()
     }
     
     render() {
