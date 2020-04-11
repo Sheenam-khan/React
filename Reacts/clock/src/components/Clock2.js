@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
 
-class Clock extends Component {
+class Clock2 extends Component {
    
     constructor(props){
        super(props)
       
        this.state={
-           date:new Date().toDateString(),
+        date:new Date().toDateString(),
         timerstarted:true,
         hours:new Date().getHours(),
         minutes:new Date().getMinutes(), 
@@ -23,6 +23,7 @@ class Clock extends Component {
  
         setInterval(()=>{
  
+
          if(this.state.timerstarted){
         // console.log(this.state)
         this.setState((prevState)=>({date:prevState.date}))
@@ -75,4 +76,4 @@ class Clock extends Component {
     }
 }
 
-export default Clock
+export default Clock2
