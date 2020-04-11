@@ -1,5 +1,4 @@
- 
-import React, { Component } from 'react'
+ import React, { Component } from 'react'
 
  class B extends Component {
     constructor(props) {
@@ -27,6 +26,4 @@ import React, { Component } from 'react'
 }
 
 export default B
- 
- 
  
