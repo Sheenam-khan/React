@@ -1,14 +1,11 @@
 import React from 'react';
+import logo from './logo.svg';
 import './App.css';
-import Clock2 from './components/Clock2';
-import A from './components/A';
- 
+import ComponentA from "./components2/ComponentA"
 function App() {
   return (
     <div className="App">
-   <Clock2></Clock2>
- 
- <A/>
+       <ComponentA></ComponentA>
     </div>
   );
 }
