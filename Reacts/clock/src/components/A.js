@@ -1,4 +1,3 @@
- 
 import React, { Component } from 'react'
 import B from './B'
 class A extends Component {
@@ -25,6 +24,4 @@ class A extends Component {
 }
 
 export default A
- 
-
  
