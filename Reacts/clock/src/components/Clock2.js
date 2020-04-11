@@ -19,7 +19,11 @@ class Clock extends Component {
 
    timerStart(e){
        e.preventDefault();
+<<<<<<< HEAD:Reacts/clock/src/components/Clock2.js
      setInterval(()=>{
+=======
+        setInterval(()=>{
+>>>>>>> bb4e026241136a37bb7dac44f50e8c1676fa5d13:Reacts/clock/src/components/Clock.js
 
          if(this.state.timerstarted){
         // console.log(this.state)
