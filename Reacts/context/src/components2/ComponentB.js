@@ -6,7 +6,7 @@ import ComponentC from './ComponentC'
     render() {
         return (
             <div>
-        <ComponentC></ComponentC>
+            {/* <ComponentC></ComponentC> */}
             </div>
         )
     }
